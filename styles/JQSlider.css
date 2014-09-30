@@ -1,0 +1,19 @@
+html * {margin: 0; padding: 0}
+
+/*.radial-slider {margin: 50px; height:  300px; width: 300px; border-radius: 150px; background: black; position: absolute;}*/
+.JQ-inner-circle {height: 150px; width: 150px; border-radius: 75px; background: rgba(0,0,0,1); position: absolute; top: 75px; left: 75px; z-index: 50}
+
+.JQ-radial-slide-container {position: absolute; z-index: 1}
+.JQ-radial-slide-spinner {background: rgba(255,0,0,1); position: absolute;}
+.JQ-radial-slide-mask {background: transparent; position: absolute; overflow: hidden;}
+
+.JQ-handle-track-container {height:  250px; width: 250px; border-radius: 125px; background: transparent; top: 25px; left: 25px; position: absolute; z-index: 2}
+.JQ-handle-track-piece {height:  250px; width: 250px; border-radius: 125px 0 0 125px; background: rgba(0,0,255,1); position: absolute; clip: rect(0px,125px,250px,0px); transform: rotate(90deg);}
+.JQ-handle-track-mask {height:  250px; width: 125px; border-radius: 125px 0 0 125px; background: transparent; position: absolute; overflow: hidden;}
+.JQ-handle-track-label {font-family: "Open Sans", Helvetica-Neue, sans-serif; font-weight: 300; height: 250px; width: 100px; left: 75px; position: absolute; background: transparent; clip: rect(0px,100px,50px,0px); color: white; text-align: center;}
+.JQ-handle-track-label span{}
+.JQ-track-label {display: block; font-size: 14px; margin-top: 5px;}
+.JQ-track-value {margin-right: 5px; font-size: 12px; font-weight: 200;}
+.JQ-track-unit {font-size: 12px; font-weight: 200;}
+
+.JQ-unselectable {-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
