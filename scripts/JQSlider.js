@@ -332,7 +332,7 @@ var spinner = new JQSlider('.radial-slider', {
     unit: '%',
     unitDecimals: 0,
     maxSize: 300, // Size in pixel
-    backgroundColor: "rgba(0,0,0,1)",
+    backgroundColor: "#FFFFFF", //"rgba(0,0,0,1)",
     theme: JQSlider.THEME_DEFAULT, // Possible themes: "default"
     data: [{
         label: "Akku",
